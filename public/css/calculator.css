@@ -1,0 +1,41 @@
+body {
+    display: flex;
+}
+
+form {
+    margin: 50px auto;
+    border: 2px cornflowerblue outset;
+    padding: 40px 20px 30px 20px;
+}
+
+.number, select {
+    width: 300px;
+    height: 30px;
+}
+.number {
+    box-sizing: border-box;
+    padding: 2px 30px 2px 5px;
+}
+
+.number:focus, select:focus {
+    outline: none;
+    border: 2px solid cornflowerblue;
+}
+.operation {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.reset {
+    width: 60px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-weight: 700;
+}
